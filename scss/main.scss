@@ -1,0 +1,22 @@
+@use './variables.scss' as *;
+@use './container.scss' as *;
+@use './form.scss' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+main, footer {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+    
+

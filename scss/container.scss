@@ -1,0 +1,43 @@
+@use './variables.scss' as *;
+
+main {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        max-width: 830px;
+        padding: 0 165px;
+
+    .img_logo {
+        margin-top: 75px;
+        margin-bottom: 136px;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 71px;
+        letter-spacing: 17.3206px;
+        color: $dark-grey;
+        margin: 0;
+    }
+
+    span {
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: 17.3206px;
+        color: $nude-pink;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: $nude-pink;
+        margin: 32px 60px 40px 0;
+    }
+
+}
+}
